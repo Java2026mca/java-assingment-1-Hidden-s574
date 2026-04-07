@@ -23,7 +23,7 @@ public class Main {
                 sb.append(mat[i][j]);
             }
             System.out.println(sb);
-            diag += mat[i][i];
+            diag += mat[i][n - 1 - i];
         }
         System.out.println("Diagonal: " + diag);
     }
